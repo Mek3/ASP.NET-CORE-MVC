@@ -132,3 +132,6 @@ C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoP
 C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\obj\Debug\net6.0\ManejoPresupuestos.pdb
 C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\obj\Debug\net6.0\ManejoPresupuestos.genruntimeconfig.cache
 C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\obj\Debug\net6.0\ref\ManejoPresupuestos.dll
+C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\obj\Debug\net6.0\scopedcss\Views\Cuentas\Index.cshtml.rz.scp.css
+C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\mekmo\OneDrive\Documentos\Empleo\.NET\ASP .NET\ASP.NET-CORE-MVC\ManejoPresupuestos\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

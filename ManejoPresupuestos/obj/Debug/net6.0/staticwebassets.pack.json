@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\js\\FormularioTransacciones.js",
+      "PackagePath": "staticwebassets\\js\\FormularioTransacciones.js"
+    },
+    {
       "Id": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
