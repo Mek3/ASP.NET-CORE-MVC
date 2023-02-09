@@ -42,7 +42,7 @@
             <strong>Total</strong>
         </div>
         <div>
-            @Model.Sum(x => x.Balance)
+            @FormatearBalance(Model.Sum(x => x.Balance))
         </div>
     </div>
 
@@ -74,7 +74,10 @@
                             var claseCuenta = ObtenerClaseBalance(cuenta.Balance);
                             <li class="list-group-item">
                                 <span>
-                                    <strong>@cuenta.Nombre</strong>
+                                    <strong>
+                                        <a asp-action="Detalle" asp-route-id="@cuenta.Id">
+                                            @cuenta.Nombre</a>
+                                        </strong>
                                     <a class="btn-primary btn" asp-action="Editar" asp-route-id="@cuenta.Id">
                                         <i class="bi-pencil-fill"></i>
 

@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Cuentas/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc1xEZXRhbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Cuentas/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +62,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Shared/_NavegarPorMeses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZlZ2FyUG9yTWVzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Shared/_ReporteTransaccionesDetalladas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXBvcnRlVHJhbnNhY2Npb25lc0RldGFsbGFkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Shared/_ResumenMontos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXN1bWVuTW9udG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -80,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/Calendario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xDYWxlbmRhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -88,8 +108,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/ExcelReporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xFeGNlbFJlcG9ydGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/Mensual.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xNZW5zdWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/Semanal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xTZW1hbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/Transacciones/_Submenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xfU3VibWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mekmo/OneDrive/Documentos/Empleo/.NET/ASP .NET/ASP.NET-CORE-MVC/ManejoPresupuestos/Views/_ViewImports.cshtml]

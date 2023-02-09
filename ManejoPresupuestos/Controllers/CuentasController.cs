@@ -11,16 +11,22 @@ namespace ManejoPresupuestos.Controllers
         private readonly IRepositorioTiposCuentas repositorioTiposCuentas;
         private readonly IServiciosUsuarios servicioUsuarios;
         private readonly IRepositorioCuentas repositorioCuentas;
+        private readonly IRepositorioTransacciones repositorioTransacciones;
+        private readonly IServicioReportes servicioReportes;
         private readonly IMapper mapper;
 
         public CuentasController(IRepositorioTiposCuentas repositorioTiposCuentas,
                                 IServiciosUsuarios servicioUsuarios,
                                 IRepositorioCuentas repositorioCuentas,
+                                IRepositorioTransacciones repositorioTransacciones,
+                                IServicioReportes servicioReportes,
                                 IMapper mapper)
         {
             this.repositorioTiposCuentas = repositorioTiposCuentas;
             this.servicioUsuarios = servicioUsuarios;
             this.repositorioCuentas = repositorioCuentas;
+            this.repositorioTransacciones = repositorioTransacciones;
+            this.servicioReportes = servicioReportes;
             this.mapper = mapper;
         }
         [HttpGet]
@@ -40,6 +46,23 @@ namespace ManejoPresupuestos.Controllers
 
             return View(modelo);  
         }
+        public async Task<IActionResult> Detalle(int id, int mes, int anyo)
+        {
+            var usuarioId = servicioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(id, usuarioId);
+
+            if (cuenta is null) 
+                return RedirectToAction("NoEncontrado", "Home");
+
+            ViewBag.Cuenta = cuenta.Nombre;
+
+            var modelo = await servicioReportes
+                            .ObtenerReporteTransaccionesDetalladasPorCuenta
+                            (usuarioId, cuenta.Id, mes, anyo, ViewBag);
+
+            return View(modelo);
+        }
+
         [HttpGet]
         public async Task<IActionResult> Crear()
         {
