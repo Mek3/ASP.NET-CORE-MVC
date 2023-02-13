@@ -8,10 +8,11 @@ namespace ManejoPresupuestos.Servicios
     {
         Task Crear(Categoria categoria);
         Task Actualizar(Categoria categoria);
-        Task<IEnumerable<Categoria>> Obtener(int usuarioId);
+        Task<IEnumerable<Categoria>> Obtener(int usuarioId, PaginacionViewModel paginacion);
         Task<Categoria> ObtenerPorId(int id, int usuarioId);
         Task Borrar(int id);
         Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId);
+        Task<int> Contar(int usuarioId);
     }
     public class RepositorioCategorias : IRepositorioCategorias
     {
@@ -35,12 +36,26 @@ namespace ManejoPresupuestos.Servicios
             categoria.Id = id;
         }
 
-        public async Task<IEnumerable<Categoria>> Obtener(int usuarioId)
+        public async Task<IEnumerable<Categoria>> Obtener(int usuarioId, PaginacionViewModel paginacion)
         {
             using var connection = new SqlConnection(connectionString);
-            return await connection.QueryAsync<Categoria>(@"
-                            SELECT * FROM Categorias
-                            WHERE UsuarioId = @UsuarioId;", new {usuarioId});
+            return await connection.QueryAsync<Categoria>(@$"
+                            SELECT * 
+                            FROM Categorias
+                            WHERE UsuarioId = @UsuarioId
+                            ORDER BY Nombre
+                            OFFSET {paginacion.RecordsASaltar} 
+                            ROWS FETCH NEXT {paginacion.RecordsPorPagina}  
+                            ROWS ONLY
+                            ", new {usuarioId});
+        }
+
+        public async Task<int> Contar(int usuarioId) 
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.ExecuteScalarAsync<int>(@"
+                    SELECT Count(*) FROM Categorias
+                     WHERE UsuarioId = @UsuarioId;", new {usuarioId});
         }
 
         public async Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId)

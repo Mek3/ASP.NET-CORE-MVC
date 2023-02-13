@@ -8,7 +8,7 @@ namespace ManejoPresupuestos.Servicios
        Task Crear(TipoCuenta tipoCuenta);
         Task Actualizar(TipoCuenta tipoCuenta);
 
-       Task<bool> Existe(string nombre, int usuarioId);
+       Task<bool> Existe(string nombre, int usuarioId, int id =0);
        Task<IEnumerable<TipoCuenta>> ObtenerTipoCuentaPorIdUsuario(int UsuarioId);
         Task<TipoCuenta> ObtenerPorId(int id, int usuarioId);
         Task Borrar(int id);
@@ -39,15 +39,16 @@ namespace ManejoPresupuestos.Servicios
             tipoCuenta.Id= id;
         }
 
-        public async Task<bool> Existe(string nombre, int usuarioId)
+        public async Task<bool> Existe(string nombre, int usuarioId, int Id = 0)
         {
             using var connection = new SqlConnection(connectionString);
 
             var existe = await connection.QueryFirstOrDefaultAsync<int>(
                                     @"select 1
                                     from TiposCuentas
-                                    where Nombre = @Nombre and UsuarioId = @UsuarioId;",
-                                    new { nombre, usuarioId });
+                                    where Nombre = @Nombre and UsuarioId = @UsuarioId 
+                                    AND UsuarioId <> @id;",
+                                    new { nombre, usuarioId, Id });
             return existe == 1;
         }
 
