@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XEGINQkfgTPCzVIbEl7rgJll+6gdhw2ZJYdxeg2hGOM=",
+  "Hash": "muJo5U5jt4fkOGVMSxnmeZBsQNq7sE3okc89XKl2hbs=",
   "Source": "ManejoPresupuestos",
   "BasePath": "_content/ManejoPresupuestos",
   "Mode": "Default",
@@ -899,6 +899,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\fullcalendar\\main.min.css",
+      "SourceId": "ManejoPresupuestos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuestos",
+      "RelativePath": "lib/fullcalendar/main.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\fullcalendar\\main.min.js",
+      "SourceId": "ManejoPresupuestos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuestos",
+      "RelativePath": "lib/fullcalendar/main.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.js"
     },
     {
       "Identity": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\jquery\\dist\\jquery.js",

@@ -205,6 +205,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\main.min.js"
+    },
+    {
       "Id": "C:\\Users\\mekmo\\OneDrive\\Documentos\\Empleo\\.NET\\ASP .NET\\ASP.NET-CORE-MVC\\ManejoPresupuestos\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-ui\\AUTHORS.txt"
     },
